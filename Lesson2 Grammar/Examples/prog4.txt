@@ -1,0 +1,6 @@
+declare
+do
+   say 4711;
+   4711;
+   say ((42));
+od

@@ -1,0 +1,5 @@
+declare
+do
+   say 2 + 3;
+   2 + 3;
+od

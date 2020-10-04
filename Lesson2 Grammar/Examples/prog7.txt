@@ -1,0 +1,7 @@
+declare
+do
+   say -4711;
+   say +4711;
+   say 2 + -3;
+   say 2 + +3;
+od

@@ -1,0 +1,45 @@
+Non-terminal symbol:
+•	Program         ::= Command
+•	Command         ::= Singe-Command
+                    |   Command ; Single-Command
+
+*   Single-Command  ::= Instantiation
+                    | Statement
+
+•	Instantiation   ::= Char Identifier [ Characters ]
+                    |   Int Indentifier [ Numbers ]
+                    |   Array Indentifier [ VariableList ]
+
+*   Statement       ::= Indentifier (VariableList)                 // NOTE FOR SELF: this is a method
+                    | & Expression
+                    | if Expression then Command
+
+*   VariableList    ::= VariableType
+                    | VariableList , VariableType
+
+*   VariableType    ::= Character
+                    | Number
+                    | Array
+
+*   Expression      ::= ExpressionComponent
+                    |  Expression ExpressionComponent
+
+*   ExpressionComponent     ::= Numbers
+                            | Characters
+                            | Operator
+
+*   Numbers         ::= Number
+                    | Numbers Number
+
+*   Characters      ::= Character
+                    | Characters Character
+
+*   Operator        ::= -- | ++ | ^ | ! | + | - | * | /
+
+Explanations:
+*   Character   - any key stroke that is not a terminal
+*   Number      - stand for 0, 1, 2 ... 7
+*   Indentifier - a combination of characters
+
+
+

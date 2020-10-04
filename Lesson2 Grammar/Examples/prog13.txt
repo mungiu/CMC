@@ -1,0 +1,37 @@
+declare
+   func s( n )
+   declare
+      var sum;
+      var d;
+   do
+      sum := 0;
+      d := n / 2;
+      while d do
+         if n % d then
+         else
+            sum := sum + d;
+         fi;
+
+         d := d - 1;
+      od;
+   od
+   return sum;
+
+   var m1;
+   var m2;
+   var m3;
+do
+   m1 := 2;
+   while 10000 - m1 do
+      m2 := s( m1 );
+      m3 := s( m2 );
+
+      if m1 - m3 then
+      else
+         say m1;
+         say m2;
+      fi;
+
+      m1 := m1 + 1;
+   od;
+od
