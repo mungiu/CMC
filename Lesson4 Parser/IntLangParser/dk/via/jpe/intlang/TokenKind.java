@@ -9,27 +9,25 @@ package dk.via.jpe.intlang;
 public enum TokenKind
 {
 	IDENTIFIER,
-	INTEGERLITERAL,
+	NUMBERS,
 	OPERATOR,
-	
-	DECLARE( "declare" ),
-	DO( "do" ),
-	ELSE( "else" ),
-	FI( "fi" ),
-	FUNC( "func" ),
+	PUNCTUATION,
+
+	CHAR( "Char"),
+	INT("Int"),
+	ARRAY("Array"),
+	WHILE( "&" ),
 	IF( "if" ),
-	OD( "od" ),
-	RETURN( "return" ),
-	SAY( "say" ),
-	THEN( "then" ),
-	VAR( "var" ),
-	WHILE( "while" ),
-	
-	COMMA( "," ),
+	QUOTE("`"),
+	LEFTBRACKET("{"),
+	RIGHTBRACKET("}"),
+	LEFT_SQUARE_BRACKET( "[" ),
+	RIGH_SQUARE_BRACKET( "]" ),
+	LEFT_PARATHESIS("("),
+	RIGHT_PARATHESIS(")"),
 	SEMICOLON( ";" ),
-	LEFTPARAN( "(" ),
-	RIGHTPARAN( ")" ),
-	
+	COMMA( "," ),
+
 	EOT,
 	
 	ERROR;

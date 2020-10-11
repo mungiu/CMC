@@ -8,27 +8,25 @@
  * 22.09.2006 ERROR added
  * 17.09.2006 Original Version (based on Example 4.2 in Watt&Brown)
  */
- 
+
 package dk.via.jpe.intlang;
 
 
 import static dk.via.jpe.intlang.TokenKind.*;
 
 
-public class Token
-{
+public class Token {
 //	public byte kind;
-	
-	public TokenKind kind;
-	public String spelling;
-	
-	
-	public Token( TokenKind kind, String spelling )
-	{
-		this.kind = kind;
-		this.spelling = spelling;
-		
-		if( kind == IDENTIFIER )
+
+    public TokenKind kind;
+    public String spelling;
+
+
+    public Token(TokenKind kind, String spelling) {
+        this.kind = kind;
+        this.spelling = spelling;
+
+        if (kind == IDENTIFIER)
 /*
 			for( byte i = 0; i < SPELLINGS.length; ++i )
 				if( spelling.equals( SPELLINGS[i] ) ) {
@@ -36,47 +34,43 @@ public class Token
 					break;
 				}
 */
-			for( TokenKind tk: KEYWORDS )
-				if( spelling.equals( tk.getSpelling() ) ) {
-					this.kind = tk;
-					break;
-				}
-	}
-	
-	
-	public boolean isAssignOperator()
-	{
-		if( kind == OPERATOR )
-			return containsOperator( spelling, ASSIGNOPS );
-		else
-			return false;
-	}
-	
-	public boolean isAddOperator()
-	{
-		if( kind == OPERATOR )
-			return containsOperator( spelling, ADDOPS );
-		else
-			return false;
-	}
-	
-	public boolean isMulOperator()
-	{
-		if( kind == OPERATOR )
-			return containsOperator( spelling, MULOPS );
-		else
-			return false;
-	}
-	
-	
-	private boolean containsOperator( String spelling, String OPS[] )
-	{
-		for( int i = 0; i < OPS.length; ++i )
-			if( spelling.equals( OPS[i] ) )
-				return true;
-				
-		return false;
-	}
+            for (TokenKind tk : KEYWORDS)
+                if (spelling.equals(tk.getSpelling())) {
+                    this.kind = tk;
+                    break;
+                }
+    }
+
+
+    public boolean isAssignOperator() {
+        if (kind == OPERATOR)
+            return containsOperator(spelling, ASSIGNOPS);
+        else
+            return false;
+    }
+
+    public boolean isAddOperator() {
+        if (kind == OPERATOR)
+            return containsOperator(spelling, ADDOPS);
+        else
+            return false;
+    }
+
+    public boolean isMulOperator() {
+        if (kind == OPERATOR)
+            return containsOperator(spelling, MULOPS);
+        else
+            return false;
+    }
+
+
+    private boolean containsOperator(String spelling, String OPS[]) {
+        for (int i = 0; i < OPS.length; ++i)
+            if (spelling.equals(OPS[i]))
+                return true;
+
+        return false;
+    }
 	
 	
 /*
@@ -134,27 +128,28 @@ public class Token
 		"<error>",
 	};
 */
-	
-	private static final TokenKind[] KEYWORDS = { DECLARE, DO, ELSE, FI, FUNC, IF, OD, RETURN, SAY, THEN, VAR, WHILE };
-	
-	
-	private static final String ASSIGNOPS[] =
-	{
-		":=",
-	};
 
-	
-	private static final String ADDOPS[] =
-	{
-		"+",
-		"-",
-	};
+    private static final TokenKind[] KEYWORDS = {CHAR, INT, ARRAY, WHILE, IF};
 
-	
-	private static final String MULOPS[] =
-	{
-		"*",
-		"/",
-		"%",
-	};
+
+    private static final String ASSIGNOPS[] =
+            {
+                    "[",
+                    "]"
+            };
+
+
+    private static final String ADDOPS[] =
+            {
+                    "+",
+                    "-",
+            };
+
+
+    private static final String MULOPS[] =
+            {
+                    "*",
+                    "/",
+                    "%",
+            };
 }
