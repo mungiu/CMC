@@ -1,0 +1,4 @@
+declare
+do
+   say 4711;
+od

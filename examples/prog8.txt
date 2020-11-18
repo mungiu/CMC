@@ -1,0 +1,9 @@
+declare
+   func double(n)
+   declare
+   do
+   od
+   return 2 * n;
+do
+   say double( 6 );
+od

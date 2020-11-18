@@ -1,0 +1,10 @@
+declare
+   var x;
+do
+   x := 123;
+   if x - 123 then
+      say 1;
+   else
+      say 2;
+   fi;
+od

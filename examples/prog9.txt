@@ -1,0 +1,25 @@
+declare
+   func doubleandsum(a,b)
+   declare
+      func two()
+      declare
+      do
+      od
+      return 2;
+
+      func double(n)
+      declare
+      do
+      od
+      return two() * n;
+
+      var x;
+      var y;
+   do
+      x := double( a );
+      y := double( b );
+   od
+   return x + y;
+do
+   say doubleandsum( 6, 9 );
+od

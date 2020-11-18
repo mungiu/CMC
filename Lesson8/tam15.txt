@@ -1,0 +1,114 @@
+# declare
+
+0:  JUMP        31[CB]
+
+#    var a;
+#
+#    func P()
+#    declare
+
+1:  JUMP        16[CB]
+
+#       var a;
+#
+#       func Q()
+#       declare
+
+2:  JUMP        3[CB]
+
+#         var a;
+#       do
+
+3:  PUSH        1
+
+#          a := 7;
+
+4:  LOADL       7
+5:  STORE (1)   3[LB]
+
+#          say a;
+
+6:  LOAD  (1)   3[LB]
+7:  CALL        putint  
+8:  CALL        puteol  
+
+#       od return 0;
+
+9:  LOADL       0
+10:  RETURN(1)   0
+
+#       func R()
+#       declare
+
+11:  JUMP        12[CB]
+
+#       do
+#          a := 42;
+
+12:  LOADL       42
+13:  STORE (1)   3[L1]
+
+#       od return 0;
+
+14:  LOADL       0
+15:  RETURN(1)   0
+
+#    do
+
+16:  PUSH        1
+
+#       a := 9;
+
+17:  LOADL       9
+18:  STORE (1)   3[LB]
+
+#       Q();
+
+19:  CALL  (LB)  2[CB]
+20:  POP   (0)   1
+
+#       say a;
+
+21:  LOAD  (1)   3[LB]
+22:  CALL        putint  
+23:  CALL        puteol  
+
+#       R();
+
+24:  CALL  (LB)  11[CB]
+25:  POP   (0)   1
+
+#       say a;
+
+26:  LOAD  (1)   3[LB]
+27:  CALL        putint  
+28:  CALL        puteol  
+
+#    od return 0;
+
+29:  LOADL       0
+30:  RETURN(1)   0
+
+# do
+
+31:  PUSH        1
+
+#    a := 13;
+
+32:  LOADL       13
+33:  STORE (1)   0[SB]
+
+#    P();
+
+34:  CALL  (SB)  1[CB]
+35:  POP   (0)   1
+
+#    say a;
+
+36:  LOAD  (1)   0[SB]
+37:  CALL        putint  
+38:  CALL        puteol  
+
+# od
+
+39:  HALT  

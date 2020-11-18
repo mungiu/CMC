@@ -1,0 +1,33 @@
+declare
+   var a;
+
+   func P(x,y)
+   declare
+      var b;
+
+      func Q(z)
+      declare
+         var k;
+      do
+         k := 1;
+         if z then
+            a := a - k;
+            Q( z - 1 );
+         fi;
+      od return 0;
+
+      func R(m)
+      declare
+      do
+         b := b + 3;
+         Q(m);
+      od return 0;
+   do
+      b := 3 * y;
+      R( a - b );
+   od return 0;
+do
+   a := 14;
+   P(a,4);
+   say a;
+od

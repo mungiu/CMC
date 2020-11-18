@@ -1,0 +1,8 @@
+declare
+   var x;
+   var y;
+do
+   x := 4711;
+   y := 2 * ( 42 - x );
+   say y;
+od

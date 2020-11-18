@@ -1,0 +1,103 @@
+# declare
+
+0:  JUMP        27[CB]
+
+#    func fibo( n )
+#    declare
+
+1:  JUMP        2[CB]
+
+#       var res;
+#    do
+
+2:  PUSH        1
+
+#       if n then
+
+3:  LOAD  (1)   -1[LB]
+4:  JUMPIF(0)   23[CB]
+
+#          if n - 1 then
+
+5:  LOAD  (1)   -1[LB]
+6:  LOADL       1
+7:  CALL        sub     
+8:  JUMPIF(0)   20[CB]
+
+#             res := fibo( n - 1 ) + fibo( n - 2 );
+
+9:  LOAD  (1)   -1[LB]
+10:  LOADL       1
+11:  CALL        sub     
+12:  CALL  (SB)  1[CB]
+13:  LOAD  (1)   -1[LB]
+14:  LOADL       2
+15:  CALL        sub     
+16:  CALL  (SB)  1[CB]
+17:  CALL        add     
+18:  STORE (1)   3[LB]
+
+#          else
+
+19:  JUMP        22[CB]
+
+#             res := 1;
+
+20:  LOADL       1
+21:  STORE (1)   3[LB]
+
+#          fi;
+#       else
+
+22:  JUMP        25[CB]
+
+#          res := 0;
+
+23:  LOADL       0
+24:  STORE (1)   3[LB]
+
+#       fi;
+#    od
+#    return res;
+
+25:  LOAD  (1)   3[LB]
+26:  RETURN(1)   1
+
+#    var n;
+# do
+
+27:  PUSH        1
+
+#    n := 0;
+
+28:  LOADL       0
+29:  STORE (1)   0[SB]
+
+#    while 24 - n do
+
+30:  LOADL       24
+31:  LOAD  (1)   0[SB]
+32:  CALL        sub     
+33:  JUMPIF(0)   43[CB]
+
+#       say fibo( n );
+
+34:  LOAD  (1)   0[SB]
+35:  CALL  (SB)  1[CB]
+36:  CALL        putint  
+37:  CALL        puteol  
+
+#       n := n + 1;
+
+38:  LOAD  (1)   0[SB]
+39:  LOADL       1
+40:  CALL        add     
+41:  STORE (1)   0[SB]
+
+#   od;
+
+42:  JUMP        30[CB]
+
+# od
+
+43:  HALT  

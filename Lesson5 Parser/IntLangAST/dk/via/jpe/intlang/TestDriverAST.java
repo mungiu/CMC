@@ -16,7 +16,7 @@ import javax.swing.*;
 
 public class TestDriverAST
 {
-	private static final String EXAMPLES_DIR = "c:\\usr\\undervisning\\CMC\\IntLang\\examples";
+	private static final String EXAMPLES_DIR = "C:\\Users\\andre\\OneDrive\\Documents\\Denmark University\\6th Semester\\CMC\\examples";
 	
 	
 	public static void main( String args[] )

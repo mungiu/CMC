@@ -1,0 +1,26 @@
+declare
+   func fibo( n )
+   declare
+      var res;
+   do
+      if n then
+         if n - 1 then
+            res := fibo( n - 1 ) + fibo( n - 2 );
+         else
+            res := 1;
+         fi;
+      else
+         res := 0;
+      fi;
+   od
+   return res;
+
+   var n;
+do
+   n := 0;
+   while 24 - n do
+      say fibo( n );
+
+      n := n + 1;
+   od;
+od

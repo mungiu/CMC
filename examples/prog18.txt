@@ -1,0 +1,6 @@
+declare
+   var x;
+do
+   x := 4711;
+   say x;
+od

@@ -1,0 +1,29 @@
+declare
+   var a;
+
+   func P()
+   declare
+      var b;
+      var c;
+
+      func Q()
+      declare
+         var c;
+      do
+         a := 7;
+         b := 9;
+         c := 13;
+
+         say c;
+      od
+         return 0;
+   do
+      c := 4711;
+      Q();
+      say b;
+   od
+   return 0;
+do
+   P();
+   say a;
+od
