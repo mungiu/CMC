@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="TAMpackage">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TAM.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Disassembler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

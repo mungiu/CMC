@@ -22,10 +22,10 @@ import java.io.IOException;
 public class Instruction {
 
   public Instruction() {
-    OpCode = 0;
-    length = 0;
-    registerNumber = 0;
-    operand = 0;
+    op = 0;
+    r = 0;
+    n = 0;
+    d = 0;
   }
 
   // Java has no type synonyms, so the following representations are
@@ -37,25 +37,25 @@ public class Instruction {
   //    Operand = -32767..+32767;  {16 bits signed}
 
   // Represents TAM instructions.
-  public int OpCode; // OpCode
-  public int length;  // RegisterNumber
-  public int registerNumber;  // Length
-  public int operand;  // Operand
+  public int op; // OpCode
+  public int r;  // RegisterNumber
+  public int n;  // Length
+  public int d;  // Operand
 
   public void write(DataOutputStream output) throws IOException {
-    output.writeInt (OpCode);
-    output.writeInt (length);
-    output.writeInt (registerNumber);
-    output.writeInt (operand);
+    output.writeInt (op);
+    output.writeInt (r);
+    output.writeInt (n);
+    output.writeInt (d);
   }
 
   public static Instruction read(DataInputStream input) throws IOException {
     Instruction inst = new Instruction();
     try {
-      inst.OpCode = input.readInt();
-      inst.length = input.readInt();
-      inst.registerNumber = input.readInt();
-      inst.operand = input.readInt();
+      inst.op = input.readInt();
+      inst.r = input.readInt();
+      inst.n = input.readInt();
+      inst.d = input.readInt();
       return inst;
     } catch (EOFException s) {
       return null;
