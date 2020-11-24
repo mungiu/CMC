@@ -21,18 +21,18 @@ public class Encoder
 	private int currentLevel = 0;
 	
 	
-	private void emit( int OpCode, int registerNumber, int length, int operand )
+	private void emit( int op, int n, int r, int d )
 	{
-		if( registerNumber > 255 ) {
+		if( n > 255 ) {
 			System.out.println( "Operand too long" );
-			registerNumber = 255;
+			n = 255;
 		}
 		
 		Instruction instr = new Instruction();
-		instr.OpCode = OpCode;
-		instr.registerNumber = registerNumber;
-		instr.length = length;
-		instr.operand = operand;
+		instr.op = op;
+		instr.n = n;
+		instr.r = r;
+		instr.d = d;
 		
 		if( nextAdr >= Machine.PB )
 			System.out.println( "Program too large" );
@@ -40,9 +40,9 @@ public class Encoder
 			Machine.code[nextAdr++] = instr;
 	}
 	
-	private void patch( int adr, int operand )
+	private void patch( int adr, int d )
 	{
-		Machine.code[adr].operand = operand;
+		Machine.code[adr].d = d;
 	}
 	
 	private int displayRegister( int currentLevel, int entityLevel )
@@ -96,8 +96,7 @@ public class Encoder
 	{
 		int before = nextAdr;
 		emit( Machine.JUMPop, 0, Machine.CB, 0 );
-
-		// visiting declarations and counting how many there are
+		
 		int size = ((Integer) b.decs.visit( this, arg )).intValue();
 		
 		patch( before, nextAdr );

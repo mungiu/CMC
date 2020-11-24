@@ -4,6 +4,6 @@ Int b[1+1];
 
 Int c[1+1+1];
 
-Int d[1+1*1/1-1];
+Int d[1+1*6/3-1];
 
 Func numberCreation() { Char a['1']; } return a;
