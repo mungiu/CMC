@@ -5,95 +5,8 @@
       <change beforePath="$PROJECT_DIR$/../../Assignments/JA code sample.tam" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/JA code sample.tam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/JA code sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/JA code sample.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/TAMpackage/JA code sample.tam" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/TAMpackage/JA code sample.tam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/IntLangChecker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/IdEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/IdentificationTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ParserOperatorPrecedence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/Scanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/SourceFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/TestDriverChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/TokenKind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/AST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/BinaryExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Block.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/CallExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Declaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Declarations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/ExpList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Expression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/ExpressionStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/FunctionDeclaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Identifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/IfStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/IntLitExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/IntegerLiteral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/SayStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Statement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Statements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Terminal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/UnaryExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/VarExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/VariableDeclaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/Visitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson6 Semantic Rules/IntLangChecker/dk/via/jpe/intlang/ast/WhileStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/IntLangCompiler.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/TAM/Instruction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/TAM/Machine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Compiler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/IdEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/IdentificationTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ParserOperatorPrecedence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Scanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/SourceFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/TokenKind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/AST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/BinaryExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Block.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/CallExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Declaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Declarations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/ExpList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Expression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/ExpressionStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/FunctionDeclaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Identifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/IfStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/IntLitExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/IntegerLiteral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/SayStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Statement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Statements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Terminal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/UnaryExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/VarExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/VariableDeclaration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/Visitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson7 The Stack/IntLangCompiler/dk/via/jpe/intlang/ast/WhileStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAM/Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAM/Instruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk/via/jpe/intlang/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dk/via/jpe/intlang/Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntLangCompiler/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntLangCompiler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntLangCompiler/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +48,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Compiler" />
@@ -151,7 +75,7 @@
       <updated>1606087907659</updated>
       <workItem from="1606087908707" duration="3214000" />
       <workItem from="1606137076286" duration="17438000" />
-      <workItem from="1606221846387" duration="722000" />
+      <workItem from="1606221846387" duration="19492000" />
     </task>
     <servers />
   </component>
@@ -163,59 +87,59 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606143430644" />
-    <state width="891" height="501" key="GridCell.Tab.0.bottom" timestamp="1606172990499">
+    <state width="916" height="295" key="GridCell.Tab.0.bottom" timestamp="1606259334743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.0.center" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="916" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334743" />
+    <state width="916" height="295" key="GridCell.Tab.0.center" timestamp="1606259334743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926366" />
-    <state width="891" height="501" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.0.left" timestamp="1606172990498">
+    <state width="891" height="318" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="916" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334743" />
+    <state width="916" height="295" key="GridCell.Tab.0.left" timestamp="1606259334743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926366" />
-    <state width="891" height="501" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990498" />
-    <state width="891" height="501" key="GridCell.Tab.0.right" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="916" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334743" />
+    <state width="916" height="295" key="GridCell.Tab.0.right" timestamp="1606259334743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.1.bottom" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="916" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334743" />
+    <state width="914" height="323" key="GridCell.Tab.1.bottom" timestamp="1606259334741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.1.center" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="914" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334741" />
+    <state width="914" height="323" key="GridCell.Tab.1.center" timestamp="1606259334741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.1.left" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.1.center/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="914" height="323" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334741" />
+    <state width="914" height="323" key="GridCell.Tab.1.left" timestamp="1606259334740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
-    <state width="891" height="501" key="GridCell.Tab.1.right" timestamp="1606172990499">
+    <state width="891" height="318" key="GridCell.Tab.1.left/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="914" height="323" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334740" />
+    <state width="914" height="323" key="GridCell.Tab.1.right" timestamp="1606259334741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="874" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606095926367" />
-    <state width="891" height="501" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606172990499" />
+    <state width="891" height="318" key="GridCell.Tab.1.right/0.0.1920.1080/-1600.182.1600.900@0.0.1920.1080" timestamp="1606235544981" />
+    <state width="914" height="323" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606259334741" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dk/via/jpe/intlang/Encoder.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="9" />
+          <line>283</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dk/via/jpe/intlang/Encoder.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="10" />
+          <line>146</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
