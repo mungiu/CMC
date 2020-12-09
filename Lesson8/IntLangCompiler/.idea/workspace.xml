@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a8bc3f-00c6-425a-b0da-e20757091977" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Assignments/JA code sample.tam" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/JA code sample.tam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/JA code sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/JA code sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/TAMpackage/JA code sample.tam" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/TAMpackage/JA code sample.tam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment Part 5 Code Generation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment Part 5 Code Generation.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntLangCompiler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntLangCompiler/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +45,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Compiler" />
@@ -76,6 +62,7 @@
       <workItem from="1606087908707" duration="3214000" />
       <workItem from="1606137076286" duration="17438000" />
       <workItem from="1606221846387" duration="19492000" />
+      <workItem from="1606322962152" duration="819000" />
     </task>
     <servers />
   </component>
